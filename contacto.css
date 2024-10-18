@@ -1,0 +1,104 @@
+body {
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    color: #3e3e3e;
+    background-color: #f7f4f1;
+    line-height: 1.6;
+    font-style: italic;
+    margin: 0;
+}
+
+.cabecera {
+    background-color: #8e7b6b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.navegacion {
+    background-color: #decdbb;
+    padding: 10px;
+}
+
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navegacion ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navegacion ul li a {
+    text-decoration: none;
+    color: #3e3e3e;
+    font-weight: bold;
+}
+
+.principal {
+    padding: 20px;
+    background-color: #efeae4;
+}
+
+.formulario-contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contacto h2 {
+    text-align: center;
+    color: #8e7b6b;
+    margin-bottom: 20px;
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-bottom: 8px;
+    color: #8e7b6b;
+    font-weight: bold;
+}
+
+.formulario-contacto input[type="text"],
+.formulario-contacto input[type="email"],
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #8e7b6b;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fdfcfb;
+}
+
+.formulario-contacto input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #8e7b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formulario-contacto input[type="submit"]:hover {
+    background-color: #705f50;
+}
+
+.global {
+    text-align: center;
+    background-color: #bfa68d;
+    padding: 10px;
+}
+
+.pie {
+    background-color: #d2b79d;
+    text-align: center;
+    padding: 10px;
+}

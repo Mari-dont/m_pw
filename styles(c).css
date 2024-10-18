@@ -1,0 +1,61 @@
+body {
+    font-family: 'Palatino Linotype', serif;
+    font-size: 16px;
+    color: #4d4d4d;
+    background-color: #f1e8db;
+    line-height: 1.8;
+    font-style: italic;
+    margin: 0;
+}
+
+.cabecera {
+    background-color: #705d56;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+.navegacion {
+    background-color: #d2b79d;
+    padding: 10px;
+}
+
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navegacion ul li {
+    display: inline;
+    margin: 0 12px;
+}
+
+.navegacion ul li a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-weight: bold;
+}
+
+.principal {
+    padding: 20px;
+    background-color: #ece3d0;
+}
+
+.anuncios {
+    padding: 15px;
+    background-color: #705d56;
+    color: #ffffff;
+}
+
+.global {
+    text-align: center;
+    background-color: #bfa68d;
+    padding: 10px;
+}
+
+.pie {
+    background-color: #d2b79d;
+    text-align: center;
+    padding: 10px;
+}

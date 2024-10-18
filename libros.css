@@ -1,0 +1,80 @@
+body {
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    color: #3e3e3e;
+    background-color: #f7f4f1;
+    line-height: 1.6;
+    font-style: italic;
+    margin: 0;
+}
+
+.cabecera {
+    background-color: #8e7b6b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.navegacion {
+    background-color: #decdbb;
+    padding: 10px;
+}
+
+.navegacion ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navegacion ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navegacion ul li a {
+    text-decoration: none;
+    color: #3e3e3e;
+    font-weight: bold;
+}
+
+.principal {
+    padding: 20px;
+    background-color: #efeae4;
+}
+
+.estanteria {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se acomoden en múltiples filas */
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.libro {
+    text-align: center;
+    margin: 15px;
+    width: 150px; /* Fija el ancho de cada libro */
+}
+
+.libro h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.imagen-libro {
+    width: 150px;
+    height: auto;
+    border: 2px solid #8e7b6b;
+    border-radius: 5px;
+}
+
+.global {
+    text-align: center;
+    background-color: #bfa68d;
+    padding: 10px;
+}
+
+.pie {
+    background-color: #d2b79d;
+    text-align: center;
+    padding: 10px;
+}

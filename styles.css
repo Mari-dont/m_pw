@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e1c6a8; /* Fondo tierra más oscuro */
+    margin: 0;
+    padding: 0;
+    color: #4a3b31;
+    font-style: italic; /* Texto en cursiva */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #d6b593; /* Tono tierra oscuro */
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.titulo {
+    text-align: center;
+    flex-grow: 1;
+    color: #6b4226;
+}
+
+.frase {
+    text-align: center;
+    color: #6b4226;
+    font-style: italic;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #a37b58; /* Fondo del menú */
+    padding: 10px 0;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+    padding: 10px 20px;
+    background-color: #6b4226; /* Botones del menú */
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #4a3b31;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(253, 247, 240, 0.9); /* Fondo tierra claro con transparencia */
+}
+
+main h2 {
+    color: #6b4226;
+}
+
+.imagen-biblioteca {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d1bfa7; /* Fondo bohemio del footer */
+    color: #4a3b31;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+
